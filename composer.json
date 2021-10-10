@@ -1,0 +1,23 @@
+{
+    "name": "jangl/composer-project",
+    "description": "jangl-project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src",
+            "GuzzleHttp\\": "vendor/guzzlehttp/guzzle/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yanholenko Oleksandr",
+            "email": "jangl@i.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~7.0",
+        "jangl/test-packagist": "dev-main"
+    }
+}
